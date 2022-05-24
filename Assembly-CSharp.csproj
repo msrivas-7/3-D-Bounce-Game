@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\HelloWorld.cs" />
      <Compile Include="Assets\reset.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -614,47 +615,73 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
- <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Play.Publisher.Editor">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.EditorCoroutines.Editor">
- <HintPath>/Users/mehul/Documents/GitHub/3-D-Bounce-Game/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.InternalAPIEditorBridgeDev.001.csproj">
+      <Project>{EF9C4E9B-3B4C-12CE-329F-423D6384428E}</Project>
+      <Name>Unity.InternalAPIEditorBridgeDev.001</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{CEF10A60-62E9-FC96-EACE-8F8FD9AABC6C}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{1A242E46-7C50-459A-6E48-BAE368CD0DAB}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{CC1346B1-497F-3DFA-6341-EDA6438EF966}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{5FDC0D60-43B0-9F07-CFB2-1DDC28A7A9BE}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{20209F7E-E274-9942-3EE7-F4B7D2EA0BEF}</Project>
+      <Name>Unity.Timeline</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{12249557-7E09-7B1A-847F-567F659D0E96}</Project>
+      <Name>Unity.TextMeshPro</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{D22C53E5-92CD-183A-FFB2-2ABD03A29AB3}</Project>
+      <Name>UnityEditor.UI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{2760EA23-F5B5-BC81-0725-16757F9EC4E4}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Play.Publisher.Editor.csproj">
+      <Project>{D77C46EA-EEA2-AB51-C19E-DBE98255A07B}</Project>
+      <Name>Unity.Play.Publisher.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{79FC2A4C-C646-9A44-0607-36BF4B76ADEA}</Project>
+      <Name>Unity.Rider.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{0B366266-64C4-3B04-F645-321A109763AB}</Project>
+      <Name>UnityEngine.UI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{36466264-0E5D-FC38-4AB2-07143DF9FF6A}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
